@@ -1,0 +1,41 @@
+{
+  "id": 198564,
+  "storeId": 7591,
+  "number": "P278050",
+  "includeFeeTransfer": false,
+  "amount": 275.5,
+  "netAmount": 270.0,
+  "fee": 5.5,
+  "description": "Descrição da venda",
+  "status": "Succeded",
+  "createdOn": "2020-07-24T13:35:03.145Z",
+  "customer": {
+    "id": 2345,
+    "firstName": "Jorge Noah",
+    "surname": "Barbosa",
+    "birthdate": "1975-10-10",
+    "identificationNumber": "90202017940",
+    "email": "jorgebarbosa@premepay.com",
+    "phone": "(48) 998711234"
+  },
+  "payment": {
+    "id": 197485,
+    "number": "b10da7c0347b40cc8c34664cb60445c0",
+    "amount": 275.5,
+    "type": "Credit",
+    "installments": 5,
+    "card": {
+      "cardBrand": "Visa",
+      "holderName": "Jorge Noah Barbosa",
+      "expirationMonth": 2,
+      "expirationYear": 2026,
+      "firstDigits": "4539",
+      "lastDigits": "5497"
+    },
+    "fraudScore": {
+      "score": 37.06
+    },
+    "createdOn": "2020-07-24T13:35:03.145Z",
+    "status": "Succeded"
+  }
+}
